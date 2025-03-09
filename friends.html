@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+    <!-- Project Css -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <!-- fontAwsome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- page Start -->
+    <div class="page d-flex">
+      <!-- Sidebar Start -->
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative text-c mt-0">Elroby</h3>
+        <ul>
+          <li>
+            <a
+              href="index.html"
+              class="active d-flex align-center fs-14 c-black radius-6 p-10"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"> </i
+              ><span class="hide-mobile">Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10"
+              ><i class="fa-solid fa-gear fa-fw"></i>
+              <span class="hide-mobile">Setting</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-user fa-fw"></i>
+              <span class="hide-mobile">Profile</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="project.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="hide-mobile">projects</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="hide-mobile">Courses</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="hide-mobile">Friends</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="file.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-file fa-fw"></i>
+              <span class="hide-mobile">files</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="plan.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="hide-mobile">plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- End Sidebar -->
+      <!-- Content Start -->
+      <div class="content w-full">
+        <!-- Start Head -->
+        <header class="header bg-white p-15 between-flex">
+          <div class="search p-relative">
+            <input
+              type="search"
+              placeholder="Type A KeyWords"
+              class="p-10 raduis-10"
+            />
+          </div>
+          <div class="icon">
+            <span class="p-relative notification d-flex align-center">
+              <span><i class="fa-regular fa-bell fa-lg"></i></span>
+              <img src="imgs/avatar.png" alt="" />
+            </span>
+          </div>
+        </header>
+        <!-- End Head -->
+        <h1>Friends</h1>
+        <!-- Start Wrapper -->
+        <div class="friend-wrapper p-20 d-grid gap-20">
+          <!-- Card One Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-01.jpg" class="raduis-round" />
+              <h4>Ahmed Nasser</h4>
+              <span class="c-gray fs-18 mb-10">JavaScript Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">99 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">15 Projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">24 Article</span>
+              </div>
+              <span class="friend-vip">VIP</span>
+            </div>
+            <div class="mt-10 mb-10 d-flex">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card One End -->
+          <!-- Card Two Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-02.jpg" class="raduis-round" />
+              <h4>OmerFathy</h4>
+              <span class="c-gray fs-18 mb-10">Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">30 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">11 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">24 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card Two End -->
+          <!-- Card three Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-03.jpg" class="raduis-round" />
+              <h4>Omar ahmed</h4>
+              <span class="c-gray fs-18 mb-10">Mobile Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">80 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">20 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">18 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card three End -->
+          <!-- Card Four Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-04.jpg" class="raduis-round" />
+              <h4>Shady Nabil</h4>
+              <span class="c-gray fs-18 mb-10">Back-End Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">70 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">30 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">18 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card Four End -->
+          <!-- Card five Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-05.jpg" class="raduis-round" />
+              <h4>Mohamed Ibrahim</h4>
+              <span class="c-gray fs-18 mb-10">Algorithm Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">70 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">30 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">18 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card five End -->
+          <!-- Card six Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-05.jpg" class="raduis-round" />
+              <h4>Amer Hendawy</h4>
+              <span class="c-gray fs-18 mb-10">Back-End Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">70 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">30 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">18 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card six End -->
+          <!-- Card seven Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-02.jpg" class="raduis-round" />
+              <h4>Mahmoud Adel</h4>
+              <span class="c-gray fs-18 mb-10">Cloud Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">70 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">30 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">18 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card seven End -->
+          <!-- Card eight Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-02.jpg" class="raduis-round" />
+              <h4>Mahmoud Adel</h4>
+              <span class="c-gray fs-18 mb-10">Cloud Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">70 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">30 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">18 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card eight End -->
+          <!-- Card nine Start  -->
+          <div class="friends-card p-20 bg-white raduis-10">
+            <div class="friend-contact">
+              <i class="fa-solid fa-phone c-gray bg-gray p-10 raduis-round"></i>
+              <i
+                class="fa-regular fa-envelope p-10 raduis-round bg-gray c-gray"
+              ></i>
+            </div>
+            <div
+              class="friend-info d-flex flex-column align-center flex-g-5 border-b-1-ccc"
+            >
+              <img src="imgs/friend-02.jpg" class="raduis-round" />
+              <h4>Mahmoud Adel</h4>
+              <span class="c-gray fs-18 mb-10">Cloud Developer</span>
+            </div>
+            <div class="friend-description mt-10 border-b-1-ccc p-relative">
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-smile"></i>
+                <span class="fw-bold">70 Friends</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-solid fa-code-commit fa-fw"></i>
+                <span class="fw-bold">30 projects</span>
+              </div>
+              <div class="d-flex align-center flex-g-5 mb-10">
+                <i class="fa-regular fa-newspaper fa-fw"></i>
+                <span class="fw-bold">18 Article</span>
+              </div>
+            </div>
+            <div class="mt-10 mb-10">
+              <span class="c-gray"> Join 02/10/2021</span>
+              <a href="#" class="c-white bg-blue raduis-6 ml-20 p-lr-10"
+                >Profile</a
+              >
+              <a href="#" class="c-white bg-red raduis-6 ml-10 p-lr-10"
+                >Remove</a
+              >
+            </div>
+          </div>
+          <!-- Card nine End -->
+        </div>
+        <!-- end wrapper -->
+      </div>
+      <!-- Content End -->
+    </div>
+    <!-- page End -->
+  </body>
+</html>

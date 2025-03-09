@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <!-- Project Css -->
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/project.css" />
+    <!-- fontAwsome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <!-- Sidebar Start -->
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative text-c mt-0">Elroby</h3>
+        <ul>
+          <li>
+            <a
+              href="index.html"
+              class="active d-flex align-center fs-14 c-black radius-6 p-10"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"> </i
+              ><span class="hide-mobile">Dashboard</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="settings.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10"
+              ><i class="fa-solid fa-gear fa-fw"></i>
+              <span class="hide-mobile">Setting</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="profile.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-user fa-fw"></i>
+              <span class="hide-mobile">Profile</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="project.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span class="hide-mobile">projects</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="courses.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="hide-mobile">Courses</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="friends.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-circle-user fa-fw"></i>
+              <span class="hide-mobile">Friends</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="file.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-file fa-fw"></i>
+              <span class="hide-mobile">files</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="plan.html"
+              class="d-flex align-center fs-14 c-black radius-6 p-10 flex-g-5"
+              ><i class="fa-regular fa-credit-card fa-fw"></i>
+              <span class="hide-mobile">plans</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <!-- End Sidebar -->
+      <!-- Content Start -->
+      <div class="content w-full">
+        <!-- Start Head -->
+        <header class="header bg-white p-15 between-flex">
+          <div class="search p-relative">
+            <input
+              type="search"
+              placeholder="Type A KeyWords"
+              class="p-10 raduis-10"
+            />
+          </div>
+          <div class="icon">
+            <span class="p-relative notification d-flex align-center">
+              <span><i class="fa-regular fa-bell fa-lg"></i></span>
+              <img src="imgs/avatar.png" alt="" />
+            </span>
+          </div>
+        </header>
+        <!-- End Head -->
+        <h1>Files</h1>
+        <!-- File Wrapper Section Start -->
+        <div class="wrapper d-flex gap-20">
+          <!-- Stats File Start  -->
+          <div class="file-stats bg-white raduis-10 p-20 d-flex flex-column">
+            <h3>File Statistics</h3>
+            <!-- Stats Card one Start  -->
+            <div
+              class="stats-card d-flex align-center border-1-ccc p-10 mt-10 raduis-6"
+            >
+              <i class="fa-regular fa-file-pdf c-blue bg-blue-light p-10"></i>
+              <div class="info d-flex flex-column">
+                <span class="m-0 fs-14">PDF Files</span>
+                <span class="c-gray">130</span>
+              </div>
+              <span class="c-gray fs-14">6.5GB</span>
+            </div>
+            <!-- Stats Card one End  -->
+            <!-- Stats Card two Start  -->
+            <div
+              class="stats-card d-flex align-center border-1-ccc p-10 mt-10 raduis-6"
+            >
+              <i class="fa-regular fa-file-word c-red bg-red-light p-10"></i>
+              <div class="info d-flex flex-column">
+                <span class="m-0 fs-14">Word Files</span>
+                <span class="c-gray">115 File</span>
+              </div>
+              <span class="c-gray fs-14">3.2GB</span>
+            </div>
+            <!-- Stats Card Two End  -->
+            <!-- Stats Card three Start  -->
+            <div
+              class="stats-card d-flex align-center border-1-ccc p-10 mt-10 raduis-6"
+            >
+              <i class="fa-regular fa-images c-green bg-green-light p-10"></i>
+              <div class="info d-flex flex-column">
+                <span class="m-0 fs-14">Imge Files</span>
+                <span class="c-gray">115 File</span>
+              </div>
+              <span class="c-gray fs-14">3.5GB</span>
+            </div>
+            <!-- Stats Card three End  -->
+            <!-- Stats Card four Start  -->
+            <div
+              class="stats-card d-flex align-center border-1-ccc p-10 mt-10 raduis-6"
+            >
+              <i
+                class="fa-solid fa-file-csv fa-lg c-orange bg-orange-light center-flex c-orange icon"
+              ></i>
+              <div class="info d-flex flex-column">
+                <span class="m-0 fs-14">CSV Files</span>
+                <span class="c-gray">99 File</span>
+              </div>
+              <span class="c-gray fs-14">2.9GB</span>
+            </div>
+            <!-- Stats Card four End  -->
+            <a href="#" class="align-center m-20 bg-blue c-white w-fit p-lr-10">
+              <i class="fa-solid fa-angles-up mr-10"></i> Upload
+            </a>
+          </div>
+          <!-- Stats File End  -->
+          <!-- File Container Start  -->
+          <div class="file-container gap-20">
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+            <!-- file Card One Start -->
+            <div class="bg-white raduis-10 p-10 file-card">
+              <i class="fa-solid fa-download c-gray"></i>
+              <div class="file-type">
+                <img src="imgs/svg/pdf.svg" />
+                <span class="fs-18 c-black">my-file.pdf</span>
+              </div>
+              <span class="c-gray">Elzero</span>
+              <div class="between-flex c-gray fs-14 mt-10 border-t-1-ccc pt-5">
+                <span>20/06/2020 </span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <!-- file Card One End -->
+          </div>
+          <!-- File Container Start  -->
+        </div>
+
+        <!-- File Wrapper Section End -->
+      </div>
+    </div>
+  </body>
+</html>
